@@ -17,17 +17,17 @@
 
 	<script>
 	function tamano(){
-			var numeroMensajes=document.getElementsByClassName("mensaje").length;
+		 var numeroMensajes=document.getElementsByClassName("mensaje").length;
 			if(numeroMensajes<2){
-				document.getElementsByTagName("span")[0].innerHTML="Es muy poco";
+			   document.getElementsByTagName("span")[0].innerHTML="Es muy poco";
 
 			} else if(numeroMensajes >= 2 && numeroMensajes<=4){
-				document.getElementsByTagName("span")[0].innerHTML="No esta mal";
+				  document.getElementsByTagName("span")[0].innerHTML="No esta mal";
 			} else {
 				document.getElementsByTagName("span")[0].innerHTML="Son muchos!";
 			}
-		}
-			tamano();
+	}
+	tamano();
 	</script>
 </body>
 </html>
